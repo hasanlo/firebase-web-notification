@@ -1,0 +1,36 @@
+{
+  "info": {
+    "_postman_id": "98a06bed-6206-440c-87e4-a1fb7996d2bc",
+    "name": "firebase",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "https://fcm.googleapis.com/fcm/send",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "key="
+          },
+          {
+            "key": "Content-type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"to\":\"chyPFeu22bfKeVcQEeKndU:APA91bF4xU9hbl7Hkmehbmk4XCeIaD5_yg_qml6Msh0EFgkNsGTUOuSsCbEwKbEBQywBW_iAp_oTOryoip2qcdTmKcZmwyJlv-j2GZGbWnCIc5GzqkQ_4WKs6IS3PyUXpiL4-C0MoUt8\" , \"notification\":{\"title\":\"سلام\",\"body\":\"سلام\"}}"
+        },
+        "url": {
+          "raw": "https://fcm.googleapis.com/fcm/send",
+          "protocol": "https",
+          "host": ["fcm", "googleapis", "com"],
+          "path": ["fcm", "send"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
